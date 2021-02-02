@@ -3,29 +3,36 @@
     <view style="height:{{navHeight}}px;"></view>
     <view class="block_title">
       <text class="title_url_about" bindtap="onClick_aboutUs">关于我们></text>
-      <text class="title_title">欢迎来到华师南海校区</text>
+      <text class="title_title">欢迎来到华南师范大学</text>
     </view>
     <view class="block_enter">
-      <view class="block_card_button" bindtap="onClick_toPageBook">
+      <view class="block_card_button" bindtap="onClick_toPageUniversity">
         <view class="content_title">
-          <text class="content_title_title">新生攻略2019</text  >
-          <text class="content_title_subtitle">开启你的大学生活</text>
+          <text class="content_title_title">学校相关</text >
+          <text class="content_title_subtitle">了解学校相关信息</text>
         </view>
-        <image class="content_icon" src="/img/index_book.png"></image>
+        <image class="content_icon" src="/img/index_university.png"></image>
       </view>
-      <view class="block_card_button" bindtap="onClick_toPageVisit">
+      <view class="block_card_button" bindtap="onClick_toPageShipai">
         <view class="content_title">
-          <text class="content_title_title">校园导览</text>
-          <text class="content_title_subtitle">带你看看校园风光</text>
+          <text class="content_title_title">石牌校区</text>
+          <text class="content_title_subtitle">一览石牌风光</text>
         </view>
         <image class="content_icon" src="/img/index_visit.png"></image>
       </view>
-      <view class="block_card_button" bindtap="onClick_toPagetravel">
+      <view class="block_card_button" bindtap="onClick_toPageDaxuecheng">
         <view class="content_title">
-          <text class="content_title_title">交通出行</text>
-          <text class="content_title_subtitle">学校周边出行路线</text>
+          <text class="content_title_title">大学城校区</text>
+          <text class="content_title_subtitle">逛逛大学城建筑</text>
         </view>
-        <image class="content_icon" src="/img/index_travel.png"></image>
+        <image class="content_icon" src="/img/index_visit.png"></image>
+      </view>
+      <view class="block_card_button" bindtap="onClick_toPageNanhai">
+        <view class="content_title">
+          <text class="content_title_title">南海校区</text>
+          <text class="content_title_subtitle">看看南海美景</text>
+        </view>
+        <image class="content_icon" src="/img/index_visit.png"></image>
       </view>
     </view>
   </scroll-view>

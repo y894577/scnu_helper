@@ -48,27 +48,35 @@ Page({
     });
   },
 
-  //点击【新生攻略】触发
-  onClick_toPageBook: function ()
+  //点击【学校相关】触发
+  onClick_toPageUniversity: function ()
   {
     wx.navigateTo({
-      url: '/pages/book/index?name=schoolintroduction',
+      url: '/pages/university/book/index?name=universityintroduction',
     });
   },
   
-  //点击【校园导览】触发
-  onClick_toPageVisit: function ()
+  //点击【石牌校区】触发
+  onClick_toPageShipai: function ()
   {
     wx.navigateTo({
-      url: '/pages/visit/index',
+      url: '/pages/shipai/index/index',
     });
   },
 
-  //点击【交通出行】触发
-  onClick_toPagetravel: function ()
+  //点击【大学城校区】触发
+  onClick_toPageDaxuecheng: function ()
   {
     wx.navigateTo({
-      url: '/pages/travel/index',
+      url: '/pages/daxuecheng/index/index',
+    });
+  },
+
+  //点击【南海校区】触发
+  onClick_toPageNanhai: function ()
+  {
+    wx.navigateTo({
+      url: '/pages/nanhai/index/index',
     });
   }
 })

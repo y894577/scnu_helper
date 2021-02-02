@@ -1,0 +1,146 @@
+.outer
+{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #E7EEF7;
+}
+
+.block_title
+{
+  width: 100%;
+  height: 180rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title_url_about
+{
+  margin-left: 40rpx;
+  margin-top: 46rpx;
+
+  font-size: 36rpx;
+  color: #749CF4;
+  font-weight: bold;
+
+  font-family: PingFangSC-bold;
+}
+
+.title_title
+{
+  margin-left: 40rpx;
+  margin-top: 16rpx;
+
+  font-size: 56rpx;
+  color: #1D54A8;
+  font-weight: bold;
+
+  font-family: PingFangSC-bold;
+}
+
+.block_enter
+{
+  width: 100%;
+  height: 75%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.block_card_button
+{
+  width: 666rpx;
+  height: 304rpx;
+  margin-bottom: 40rpx;
+
+  background-color: #FFFFFF;
+  border-radius: 20rpx 0rpx 0rpx 60rpx;
+  box-shadow: 0rpx 2rpx 6rpx 0rpx rgba(170, 170, 170, 1);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content_title
+{
+  margin-left: 50rpx;
+  margin-top: 68rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content_title_title
+{
+  color: #48A1FD;
+  font-size: 56rpx;
+  font-weight: bold;
+
+  font-family: PingFangSC-bold;
+}
+
+.content_title_subtitle
+{
+  margin-top: 14rpx;
+
+  color: #A1A5AE;
+  font-size: 36rpx;
+  font-weight: bold;
+
+  font-family: PingFangSC-bold;
+}
+
+.content_icon
+{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 68rpx;
+  margin-top: 68rpx;
+}
+
+::-webkit-scrollbar
+{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.btn_nav_back
+{
+  width: 158rpx;
+  height: 64rpx;
+  margin-left: 26rpx;
+  margin-top: 14rpx;
+
+  background-color: #555454;
+  border-radius: 6rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn_nav_back_text
+{
+  color: rgba(255, 255, 255, 1);
+  font-size: 32rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
