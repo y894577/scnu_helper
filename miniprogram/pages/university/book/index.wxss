@@ -1,0 +1,544 @@
+/**index.wxss**/
+
+/* page {
+  background-color: #000;
+} */
+
+/**主题配色**/
+@import '/towxml/style/main.wxss';
+.outer
+{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navigator
+{
+  width: 100%;
+
+  z-index: 9999;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.btn_nav_back
+{
+  width: 158rpx;
+  height: 64rpx;
+  margin-left: 26rpx;
+  margin-top: 14rpx;
+
+  background-color: #555454;
+  border-radius: 6rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_nav_back_text
+{
+  color: rgba(255, 255, 255, 1);
+  font-size: 32rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
+
+.btn_getlocation
+{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 26rpx;
+  margin-top: 560rpx;
+}
+
+.block_map
+{
+  width: 100%;
+  height: 660rpx;
+}
+
+.block_function
+{
+  width: 100%;
+
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.circle_bar
+{
+  width: 100%;
+  height: 24rpx;
+
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  background-color: white;
+}
+
+.block_tab
+{
+  width: 100%;
+  height: 60rpx;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card_tab
+{
+  width: 230rpx;
+  height: 50rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab_title
+{
+  font-size: 36rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
+
+.block_content
+{
+  width: 100%;
+  margin-top: 34rpx;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.block_schoolbus
+{
+  width: 100%;
+  height: 700rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card_img
+{
+  margin-left: 34rpx;
+  margin-top: 10rpx;
+  width: 682rpx;
+  height: 506rpx;
+  border-radius: 20rpx;
+  color: rgba(16, 16, 16, 1);
+  box-shadow: 0rpx 0rpx 4rpx 0rpx rgba(170, 170, 170, 1);
+}
+
+.btn_save_img
+{
+  margin-left: 530rpx;
+  margin-top: 20rpx;
+  width: 186rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: rgba(85, 84, 84, 1);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_save_img_icon
+{
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn_save_img_text
+{
+  color: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
+
+.card_around_site
+{
+  margin-left: 32rpx;
+  margin-bottom: 40rpx;
+  width: 682rpx;
+  height: 180rpx;
+  border-radius: 20rpx;
+  color: rgba(16, 16, 16, 1);
+  box-shadow: 0rpx 2rpx 8rpx 0rpx rgba(170, 170, 170, 0.59);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card_around_site_up
+{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 72rpx;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_around_site_down
+{
+  margin-top: 14rpx;
+  width: 100%;
+  height: 48rpx;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card_around_site_title
+{
+  margin-left: 42rpx;
+  color: rgba(16, 16, 16, 1);
+  font-size: 48rpx;
+  font-family: SourceHanSansSC-bold;
+  font-weight: bold;
+}
+
+.card_around_site_star
+{
+  margin-right: 44rpx;
+  width: 58rpx;
+  height: 58rpx;
+}
+
+.card_around_site_bus_icon
+{
+  margin-left: 40rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.card_around_site_bus_bar
+{
+  margin-left: 30rpx;
+  width: 128rpx;
+  height: 48rpx;
+  border-radius: 40rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bus_text
+{
+  color: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  font-family: SourceHanSansSC-bold;
+  font-weight: bold;
+}
+
+.detail_block
+{
+  margin-top: 4rpx;
+  margin-left: 52rpx;
+
+  width: 654rpx;
+  height: 294rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.detail_block_title
+{
+  width: 100%;
+  height: 40rpx;
+  margin-top: 18rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail_block_title_text
+{
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
+
+.detail_block_content_text
+{
+  color: rgba(116, 118, 123, 1);
+  font-size: 32rpx;
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+}
+
+.detail_block_content_line
+{
+  width: 654rpx;
+  border-top: 2rpx solid rgba(187, 187, 187, 1);
+  background-color: rgba(187, 187, 187, 1);
+  margin-top: 20rpx;
+}
+
+.block_none_item
+{
+  width: 100%;
+  height: 40rpx;
+  margin-top: 130rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_none_item
+{
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+}
+
+.share{
+  bottom:130rpx;
+  left:550rpx;
+  position:fixed;
+}
+.share_button{
+  width: 150rpx;
+}
+.text {
+  background: #fff;
+  text-align: 100rpx;
+  position: relative;
+  top: 840rpx;
+  /* left: 50rpx; */
+}
+
+.index {
+  position: fixed;
+  bottom: 0rpx;
+  /* left: 80rpx; */
+  background-color: #1890ff;
+  /* border-radius: 40rpx; */
+  height: 80rpx;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+/* .white{
+  background-color: #fff;
+  z-index: 88;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: -500rpx;
+} */
+
+.index_text {
+  position: fixed;
+  color: #fff;
+  padding-top: 12rpx;
+  width: 150rpx;
+}
+
+.pretitle {
+  position: fixed;
+  top: 200rpx;
+  left: 120rpx;
+  font-size: 30rpx;
+  color: #595959;
+}
+
+.card {
+  position: fixed;
+  top: 250rpx;
+  left: 60rpx;
+  background-color: #1890ff;
+  width: 20rpx;
+  height: 60rpx;
+}
+
+.title {
+  position: fixed;
+  top: 245rpx;
+  left: 100rpx;
+  font-size: 50rpx;
+  color: black;
+}
+
+.search {
+  position: fixed;
+  width: 80%;
+  top: 170rpx;
+  left: 30rpx;
+  height: 60rpx;
+  background-color: #f5f5f5;
+  border-radius: 20rpx;
+}
+
+.search_button {
+  position: fixed;
+  top: 160rpx;
+  width: 100rpx;
+  left: 660rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+}
+
+.search_text {
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  padding-left: 70rpx;
+  color: #8c8c8c;
+}
+
+.icon {
+  height: 35rpx;
+  width: 35rpx;
+  position: relative;
+  top: 12rpx;
+  /* left: 20rpx; */
+}
+
+.display {
+  display: block;
+}
+
+/* ******************** 侧拉栏 start ******************** */
+
+.page-slidebar {
+  height: 100%;
+  /* width: 750rpx; */
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
+.page-content {
+  padding-top: 60rpx;
+}
+
+.wc {
+  color: black;
+  padding: 30rpx 0 30rpx 150rpx;
+  border-bottom: 1px solid #eee;
+  width: 300rpx;
+  background-color: #fff
+}
+
+/* 当屏幕向左滑动，出现侧边栏的时候，主页的动画样式 */
+
+/* scale：取值范围 0~1 ，表示屏幕大小是原来的百分之几，可以自己修改成 0.8 试下*/
+
+/* translate(60%,0%) 表示向左滑动的时候，侧边栏占用平时的宽度为 60%   */
+
+.c-state {
+  transform: rotate(0deg) scale(1) translate(60%, 0%);
+  -webkit-transform: rotate(0deg) scale(1) translate(60%, 0%);
+}
+
+.page-top {
+  height: 150%;
+  top: -500rpx;
+  position: relative;
+  width: 750rpx;
+  background-color: white;
+  z-index: 2;
+  transition: All 0.4s ease;
+  -webkit-transition: All 0.4s ease;
+}
+
+/* 遮盖层样式 */
+
+/* .cover {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.5;
+  z-index: 9000;
+} */
+
+/* ******************** 侧拉栏 end ******************** */
+
+/* ******************** 底部栏 start ******************** */
+
+.bottom_box {
+  border-top: 1rpx solid #e8e8e8;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  z-index: 0;
+}
+
+.bottom_text1 {
+  color: gray;
+  font-family: PingFangSC-bold;
+  font-size: 28rpx;
+  text-align: center;
+  padding-bottom: 10rpx;
+}
+.bottom_text2{
+  color: #000;
+  font-size: 28rpx;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  padding-bottom: 8rpx;
+}
+.bottom_text3{
+  font-size: 28rpx;
+  font-weight: 100rpx;
+  padding-left: 20rpx;
+  font-family: PingFangSC-bold;
+  padding-bottom: 8rpx;
+}
+.control-tab{
+  left: 65rpx;
+  bottom: 28rpx;
+  width: 620rpx;
+  height: 76rpx;
+  line-height: 80rpx;
+  border-radius: 42rpx;
+  background-color: rgba(24,144,255,1);
+  text-align: center;
+  box-shadow: 0px 0px 7px 0px rgba(24,144,255,1);
+  position: fixed;
+  justify-content: space-between;
+}
+/* ******************** 底部栏 end ******************** */
